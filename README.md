@@ -2,7 +2,8 @@
 ---
 ## Informal Responses
 * Week 1
-  + [Tuesday] (https://github.com/johnkwillis/data310/blob/main/tuesday1.md)
+  + [Tuesday] (tuesday1.md)
+  + [Wednesday] ()
 * Week 2
 * Week 3
 * Week 4
