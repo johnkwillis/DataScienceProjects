@@ -2,6 +2,7 @@
 
 ## Informal Responses
 * Week 1
+⋅⋅* Tuesday
 * Week 2
 * Week 3
 * Week 4
