@@ -25,3 +25,12 @@
       case, the predicted value does not match the true identity of the test image.
    
    ![img_4.png](img_4.png)
+
+4. Classifying hand written numbers:
+   * The model classified items correctly at a rate of 95% on both the training and testing data sets. This model outperformed the first one, but only by
+     marginally. Though I cannot say why for certain, I assume this descrepency is due to the digits having more distinct profiles than the clothing items
+     since both datasets have identically shaped training and testing sets and each model is working with 10  classes.
+     
+   ![img_5.png](img_5.png)
+   ![img_6.png](img_6.png)
+   ![img_7.png](img_7.png)
