@@ -2,8 +2,8 @@
 ---
 ## Informal Responses
 * Week 1
-  + [Tuesday] (tuesday1.md)
-  + [Wednesday] ()
+  + ![Tuesday](tuesday1.md)
+  + ![Wednesday] ()
 * Week 2
 * Week 3
 * Week 4
