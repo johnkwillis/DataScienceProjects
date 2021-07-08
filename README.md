@@ -3,7 +3,7 @@
 ## Informal Responses
 * Week 1
   + ![Tuesday](tuesday1.md)
-  + ![Wednesday] ()
+  + ![Wednesday]()
 * Week 2
 * Week 3
 * Week 4
