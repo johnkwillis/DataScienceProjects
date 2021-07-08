@@ -1,7 +1,6 @@
 # Wednesday 7/7
 
 1. Three new training images:
-   
    ![img.png](img.png)
    ![img_1.png](img_1.png)
    ![img_2.png](img_2.png)
@@ -14,6 +13,7 @@
       value in the normalized vecor as 1 and the rest as 0.
       In this case, the normalized array indicated that the model was 100% sure the image was a sandal and it was correct.
       Additionally, the softmax function enables us to tune nueral networks because (unlike argmax) it is diferentiable.
+   
    * Similar to the softmax function, the sigmoid function also works by normalizing logits for classification; however, this can only be used for binary classification problems.
      
    ![img_3.png](img_3.png)
