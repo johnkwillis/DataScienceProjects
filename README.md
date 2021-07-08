@@ -1,6 +1,6 @@
 # DATA 310 Index
 ---
-## Informal Responses
+## Responses
 * Week 1
   + [Tuesday](tuesday1.md)
   + [Wednesday](wednesday1.md)
