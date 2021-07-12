@@ -4,7 +4,7 @@
 1. How did your model fare?
    * My model, built on Zillow data from Cincinnati, performed with an MSE of 28.5375. As shown in the graph below, the model's
    loss dropped dramatically after the initial epochs before stabilizing around ~5.4. Overall, the model performed fairly well. Though it struggled
-     to predict the prices of the most expensive houses, it faired well in the lower price range and could be greatly improved with a 
+     to predict the prices of the most expensive houses, it fared well in the lower price range and could be greatly improved with a 
      more expansive, less skewed, training dataset.
      * ![img_9.png](img_9.png)
    
