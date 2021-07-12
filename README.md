@@ -11,7 +11,7 @@
 * Week 5
 
 ## Projects
-* [Week 1](https://github.com/johnkwillis/data310/blob/ad76ce04f568892877f2d1a87afe7876633e10f7/project1.md)
+* [Week 1](/Users/johnwillis/WebstormProjects/data310/project1.md)
 * Week 2
 * Week 3
 * Week 4
