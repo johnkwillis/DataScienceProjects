@@ -11,7 +11,7 @@
 * Week 5
 
 ## Projects
-* [Week 1](project1.md)
+* [Week 1](https://github.com/johnkwillis/data310/blob/main/project1.md)
 * Week 2
 * Week 3
 * Week 4
