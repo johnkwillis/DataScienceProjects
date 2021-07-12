@@ -23,7 +23,7 @@
         ![img_8.png](img_8.png)
    
 4. Which feature appears to be the most significant predictor?
-    * Number of bedrooms appears to me the most significant feature in my model. To determine this, I split the three features into their own respective variables and created
+    * Number of bedrooms is the most significant feature in my model. To determine this, I split the three features into their own respective variables and created
    three new neural nets based on their contents, respectively. After testing the predictive abilities of these models, I found that
       the one built on the bedrooms' data alone performed the best with an MSE of ~18.5. The other two models - built on bathrooms and livingArea - had MSE's of
       ~ 26, so they are worse predictors.
