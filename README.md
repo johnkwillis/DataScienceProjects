@@ -1,19 +1,32 @@
 # DATA 310 Index
-
-## Responses
-* Week 1
+### Responses and Projects
+* [x] __Week 1__
   + [Tuesday](tuesday1.md)
   + [Wednesday](wednesday1.md)
   + [Thursday](https://eanelson01.github.io/DATA310/images/thurs1.html)
-* Week 2
+  + [Project 1](project1.md)
+* [ ] __Week 2__
   + [Monday](monday2.md)
-* Week 3
-* Week 4
-* Week 5
+  + [Tuesday]()
+  + [Wednesday]()
+  + [Thursday]()
+  + [Project 2]()
+* [ ] __Week 3__
+  + [Monday]()
+  + [Tuesday]()
+  + [Wednesday]()
+  + [Thursday]()
+  + [Project 3]()
+* [ ] __Week 4__
+  + [Monday]()
+  + [Tuesday]()
+  + [Wednesday]()
+  + [Thursday]()
+  + [Project 4]()
+* [ ] __Week 5__
+  + [Monday]()
+  + [Tuesday]()
+  + [Wednesday]()
+  + [Thursday]()
+  + [Final Project]()
 
-## Projects
-* [Week 1](project1.md)
-* Week 2
-* Week 3
-* Week 4
-* Week 5
