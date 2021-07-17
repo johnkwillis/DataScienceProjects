@@ -7,7 +7,7 @@
   + [Project 1](project1.md)
 * [ ] __Week 2__
   + [Monday](monday2.md)
-  + [Tuesday]()
+  + [Tuesday](tuesday2.md)
   + [Wednesday]()
   + [Thursday]()
   + [Project 2]()
