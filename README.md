@@ -12,7 +12,7 @@
   + [Thursday](thursday2.md)
   
 * __Week 3__
-  + [Monday]()
+  + [Monday](monday3.md)
   + [Tuesday]()
   + [Wednesday]()
   + [Thursday]()
