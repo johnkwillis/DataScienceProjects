@@ -1,0 +1,4 @@
+# Thursday 7/19
+1. Using the relevant parts from the entirety of the example script as a guide, fit a CNN model to your training data and validate using the beans dataset from Tensorflow datasets and then again train and validate using the eurosat dataset. Present your results and discuss the accuracy of each of model.
+    *
+2. Towards the end of this exercise is the Apply augmentation to a dataset example, that illustrates a resize and rescale image augmentation implementation to the tf_flowers dataset. Apply this same method to both the beans and eurosat datasets. Did your model performance improve? How many epochs were you able to run and how much time did it take? Present your results and discuss the accuracy of your augmented output.
