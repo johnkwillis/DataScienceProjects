@@ -19,6 +19,8 @@ ___3. What is occurring at each step and why is it necessary to execute before f
 ___4. Train each model and produce the output (not necessary to validate or test).  Describe the model output from each of the trained metro traffic interstate dataset and the iris flowers dataset.  What is the target for each dataset?  How would you assess the accuracy of each model?  Are you using a different metric for each one?  Why is this so?  What is each one measuring?___
     
 * For the iris dataset, I chose to use Categorical Crossentropy for the loss function because the labels fall into 3 categories - Iris Setosa, Iris Versicolour or Iris Virginica - which I mapped to 0, 1 and 2. I chose this as the loss function because it most aptly evaluates the performance of a model that is making predictions for 2+ labels. In the end, my model's performance was extremely odd. For some reason, my loss values came out extremely low, leading me to believe that I made a mistake or generated an extremely overfit model.
+
 ![img_2.png](img_2.png)
 * Unlike the iris model, the target for the interstate dataset was continuous, not categorical. So, to account for this difference, I chose Mean Squared Error to be my loss function. MSE is best for models predicting a continuous variable because it effectively represents the average of the distance between each y and y_pred squared. Like with the iris dataset, my model's performance on the interstate data was very odd. As you can see below, my loss value starts out tremendously high and, while it does lower quite a bit, ends high as well.
+
 ![img_3.png](img_3.png)
