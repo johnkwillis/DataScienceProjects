@@ -6,7 +6,7 @@
    loss dropped dramatically after the initial epochs before stabilizing around ~5.4. Overall, the model performed fairly well. Though it struggled
      to predict the prices of the most expensive houses, it fared well in the lower price range and could be greatly improved with a 
      more expansive, less skewed, training dataset.
-     * ![img_9.png](img_9.png)
+     * ![img_9.png](images/img_9.png)
    
 2. In your estimation is there a particular variable that may improve model performance?
    * Including year built in the training data could potentially improve the model's performance. Whereas bedrooms, bathrooms and living Area provide
@@ -20,7 +20,7 @@
       because, as shown in the graph below, it performs the best on homes that sell in the bottom 60% in terms of prices, whereas there is lower predictive accuracy for homes that
       sold for $500,000+. In line with this, I also found that the model tends to over predict the prices. This is also likely due to the rightward skew
       present in the original training data.
-        ![img_8.png](img_8.png)
+        ![img_8.png](images/img_8.png)
    
 4. Which feature appears to be the most significant predictor?
     * Number of bedrooms is the most significant feature in my model. To determine this, I split the three features into their own respective variables and created
