@@ -8,7 +8,7 @@
 * __Week 2__
   + [Monday](monday2.md)
   + [Tuesday](tuesday2.md)
-  + [Thursday](thusday2.md)
+  + [Thursday](thursday2.md)
 * __Week 3__
   + [Monday]()
   + [Tuesday]()
