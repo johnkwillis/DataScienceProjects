@@ -1,4 +1,4 @@
-# Wednesday 7/21
+# Wednesday 7/21 - Annabel, Cori and John
 
 ### Import the dataset city_persons.csv to your PyCharm environment
 ```
