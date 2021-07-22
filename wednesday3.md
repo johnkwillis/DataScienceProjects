@@ -35,7 +35,7 @@ history = model.fit(train_ds,
           validation_data=val_ds,
           epochs=10)
 ```
-
+test
 ### Interpret and analyze your results. Did the model performance exhibit a particular trend
 * `dataframe['target'] = np.where(dataframe['wealthC']==2, 1, 0)`
     * ![img_13.png](img_13.png)
