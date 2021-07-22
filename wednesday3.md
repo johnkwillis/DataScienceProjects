@@ -37,7 +37,7 @@ history = model.fit(train_ds,
 ```
 
 ### Interpret and analyze your results. Did the model performance exhibit a particular trend
-##### `dataframe['target'] = np.where(dataframe['wealthC']==2, 1, 0)`
+##### `dataframe['target'] = np.where(dataframe['wealthC']==2, 1, 0)`:
 ![img_13.png](img_13.png)
 When we first ran the model, the val_loss kept coming back as nan. Though we are still unsure why this occurred, we theorized that it could be due to severe overfitting. This would make sense for this binary classification problem because there are only 64 examples labeled with a 2. Because this sample size is so dwarfed by the other three categories, the model is easily able to tell which ones are labeled 2 and it is able to do so extremely accurately on both validation and testing sets.
     
