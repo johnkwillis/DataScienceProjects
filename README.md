@@ -13,7 +13,7 @@
   
 * __Week 3__
   + [Monday](monday3.md)
-  + [Tuesday]()
+  + [Tuesday](tuesday3.md)
   + [Wednesday](wednesday3.md)
   + [Thursday]()
   + [Project 3]()
