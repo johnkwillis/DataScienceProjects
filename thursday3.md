@@ -1,0 +1,2 @@
+# Thursday 7/25 - John and Dylan
+### Today in class, we completed the "Classify structured data using Keras Preprocessing Layers" notebook and then rearranged the code to classify a larger dataet: `country_persons.csv`. In the first model, we aimed to predict w 
