@@ -6,9 +6,9 @@
 ####___[Project 1](project1.md)___
   
 ## __Week 2__
-  + [Monday](monday2.md)___
-  + [Tuesday](tuesday2.md)___
-  + [Thursday](thursday2.md)___
+####___[Monday](monday2.md)___
+####___[Tuesday](tuesday2.md)___
+####___[Thursday](thursday2.md)___
   
 ## __Week 3__
   ####___[Monday](monday3.md)___
@@ -17,14 +17,14 @@
   ####___[Thursday]()___
   ####___[Project 3](project3.md)___
   
-### __Week 4__
+## __Week 4__
 ####___[Monday](monday4.md)___
 ####___[Tuesday]()___
 ####___[Wednesday]()___
 ####___[Thursday]()___
 ####___[Project 3]()___
   
-### __Week 5__
+## __Week 5__
 ####___[Monday]()___
 ####___[Tuesday]()___
 ####___[Wednesday]()___
