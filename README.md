@@ -1,30 +1,30 @@
 # ___DATA 310 Index___
-## __Week 1__
+## Week 1
 * ___[Tuesday](tuesday1.md)___
 * ___[Wednesday](wednesday1.md)___
 * ___[Thursday](https://eanelson01.github.io/DATA310/images/thurs1.html)___
 * ___[Project 1](project1.md)___
   
-## __Week 2__
+## Week 2
 * ___[Monday](monday2.md)___
 * ___[Tuesday](tuesday2.md)___
 * ___[Thursday](thursday2.md)___
   
-## __Week 3__
+## Week 3
 * ___[Monday](monday3.md)___
 * ___[Tuesday](tuesday3.md)___
 * ___[Wednesday](wednesday3.md)___
 * ___[Thursday](thursday3.md)___
 * ___[Project 3](project3.md)___
   
-## __Week 4__
+## Week 4
 * ___[Monday](monday4.md)___
-* __[Tuesday]()___
+* ___[Tuesday]()___
 * ___[Wednesday]()___
 * ___[Thursday]()___
 * ___[Project 3]()___
   
-## __Week 5__
+## Week 5
 * ___[Monday]()___
 * ___[Tuesday]()___
 * ___[Wednesday]()___
