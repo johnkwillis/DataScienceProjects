@@ -14,7 +14,7 @@
 * ___[Monday](monday3.md)___
 * ___[Tuesday](tuesday3.md)___
 * ___[Wednesday](wednesday3.md)___
-* ___[Thursday]()___
+* ___[Thursday](thursday3.md)___
 * ___[Project 3](project3.md)___
   
 ## __Week 4__
