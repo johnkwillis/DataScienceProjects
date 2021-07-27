@@ -1,6 +1,6 @@
 # Thursday 7/25 - John and Dylan
 ### Today in class, we completed the "Classify structured data using Keras Preprocessing Layers" notebook and then rearranged the code to create a predictive model on a larger dataet: `country_persons.csv`. With our first model, we aimed to predict which examples belonged to the lowest wealth class. Our model arcitecture was:
-```json
+```
 def baseline_model(loss):
     model = tf.keras.Sequential([
         feature_layer,
