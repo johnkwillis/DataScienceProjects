@@ -18,11 +18,9 @@
 * ___[Project 3](project3.md)___
   
 ## Week 4
-* ___[Monday](monday4.md)___
-* ___[Tuesday]()___
-* ___[Wednesday]()___
-* ___[Thursday]()___
-* ___[Project 3]()___
+* ___[Wednesday](wednesday4.md)___
+* ___[Thursday](thursday4.md)___
+* ___[Project 4](project4.md)___
   
 ## Week 5
 * ___[Monday]()___
