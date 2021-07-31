@@ -1,17 +1,17 @@
 # Wednesday 7/28 - Neural Style Transfer
 On wednesday, we used Tensor Flow to perform a neural style transfer, following the 4 steps I have outlined below. Using the same approach, I used a collection of new images to practice neural style transfer.
 
-###___Content Image:___
+### ___Content Image:___
 
-#####Danny DeVito
+##### Danny DeVito
 ![img_41.png](img_41.png)
 
-###___Style images:___
+### ___Style images:___
 
-#####Owl Prints (Charley Harper)
+##### Owl Prints (Charley Harper)
 ![img_40.png](img_40.png)
 
-#####Marilyn Monroe Print (Andy Warhol)
+##### Marilyn Monroe Print (Andy Warhol)
 ![img_39.png](img_39.png)
 
 ### Define and extract content and style representations
@@ -24,7 +24,7 @@ To run gradient descent, I first needed to define it within a `tf.Variable` obje
 
 ### Apply regularization term on the high frequency components
 
-#####As demonstrated in the images below, preprocessing the original images into the stylized format creates alot of variancec in the images. In order to reduce this, I reran the model I outlined above with regularization layers encoded within it. 
+##### As demonstrated in the images below, preprocessing the original images into the stylized format creates alot of variancec in the images. In order to reduce this, I reran the model I outlined above with regularization layers encoded within it. 
 
 ![img_45.png](img_45.png)
 ![img_46.png](img_46.png)
