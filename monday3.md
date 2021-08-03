@@ -1,9 +1,9 @@
 # Monday 7/19
 ### ___Use the `plot_model()` command from `tf.keras.utils` to produce the plot that describes the input preprocessing step.___
 ##### ___Iris:___
-   ![img.png](../images/ext/img.png)
+   ![img.png](images/ext/img.png)
    ##### ___Interstate:___
-   ![img_1.png](../images/ext/img_1.png)
+   ![img_1.png](images/ext/img_1.png)
    
    
 ### ___Describe the plot of each model for the two dataset preprocessing steps.  What does each box in the illustration represent?  Are there different paths towards the final concatenation step?___
@@ -19,7 +19,7 @@
     
 ##### For the iris dataset, I chose to use Categorical Crossentropy for the loss function because the labels fall into 3 categories - Iris Setosa, Iris Versicolour or Iris Virginica - which I mapped to 0, 1 and 2. I chose this as the loss function because it most aptly evaluates the performance of a model that is making predictions for 2+ labels. In the end, my model's performance was extremely odd. For some reason, my loss values came out extremely low, leading me to believe that I made a mistake or generated an extremely overfit model.
 
-![img_2.png](../images/ext/img_2.png)
+![img_2.png](images/ext/img_2.png)
 ### Unlike the iris model, the target for the interstate dataset was continuous, not categorical. So, to account for this difference, I chose Mean Squared Error to be my loss function. MSE is best for models predicting a continuous variable because it effectively represents the average of the distance between each y and y_pred squared. Like with the iris dataset, my model's performance on the interstate data was very odd. As you can see below, my loss value starts out tremendously high and, while it does lower quite a bit, ends high as well.
 
-![img_3.png](../images/ext/img_3.png)
+![img_3.png](images/ext/img_3.png)
