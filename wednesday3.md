@@ -38,17 +38,17 @@ history = model.fit(train_ds,
 
 ### Interpret and analyze your results. Did the model performance exhibit a particular trend
 ##### `dataframe['target'] = np.where(dataframe['wealthC']==2, 1, 0)`:
-![img_13.png](img_13.png)
+![img_13.png](images/ext/img_13.png)
 When we first ran the model, the val_loss kept coming back as nan. Though we are still unsure why this occurred, we theorized that it could be due to severe overfitting. This would make sense for this binary classification problem because there are only 64 examples labeled with a 2. Because this sample size is so dwarfed by the other three categories, the model is easily able to tell which ones are labeled 2 and it is able to do so extremely accurately on both validation and testing sets.
     
 ##### `dataframe['target'] = np.where(dataframe['wealthC']==3, 1, 0)`:
-![img_14.png](img_14.png)
+![img_14.png](images/ext/img_14.png)
 This model's behavior is similar to the first. Because there are so few examples labeled '4', the model quickly reaches a high accuracy and low loss, seeming to be on a path toward overfitting.
 
 ##### `dataframe['target'] = np.where(dataframe['wealthC']==4, 1, 0)`:
-![img_15.png](img_15.png)
+![img_15.png](images/ext/img_15.png)
 Unlike the first two models, this one was working with a more balanced set of labels and trained for longer (3 epochs) before it became overfit. In the end, this model identified `dataframe['wealthC']==4` ~63% of the time on all three sets.
 
 ##### `dataframe['target'] = np.where(dataframe['wealthC']==5, 1, 0)`:
-![img_16.png](img_16.png)
+![img_16.png](images/ext/img_16.png)
 The final model we ran aimed to identify the most wealthy individuals within the dataset. After training and evaluating the model, it appeared to become overfit at around 4 epochs, reaching training and validation accuracies of 52% and 56% respectively. These results also reinforce our previous theory that the first two batches of labels simply did not contain enough examples and, thus, the models became drastically overfit and demonstrated hyperbolic results.
