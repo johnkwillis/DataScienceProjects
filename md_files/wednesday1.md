@@ -2,9 +2,9 @@
 
 1. Three new training images:
    
-   ![img.png](images/img.png)
-   ![img_1.png](images/img_1.png)
-   ![img_2.png](images/img_2.png)
+   ![img.png](../images/img.png)
+   ![img_1.png](../images/img_1.png)
+   ![img_2.png](../images/img_2.png)
    
 2. New prediction array:
     * This array shows the models probabilistic classification of the image on the left. After training the model with the training data
@@ -17,20 +17,20 @@
    
    * Similar to the softmax function, the sigmoid function also works by normalizing logits for classification; however, this can only be used for binary classification problems.
      
-   ![img_3.png](images/img_3.png)
+   ![img_3.png](../images/img_3.png)
       
 3. Testing the model on a single image [57]:
     * When testing the neural net, we do not call the Softmax function again because it was baked into the model stored as probability_model. However,
       we call argmax again to determine which value is the highest in the Softmax-normalized array because this action is not implicit within the model. In this
       case, the predicted value does not match the true identity of the test image.
    
-   ![img_4.png](images/img_4.png)
+   ![img_4.png](../images/img_4.png)
 
 4. Classifying hand written numbers:
    * The model classified items correctly at a rate of 95% on both the training and testing data sets. This model outperformed the first one, but only by
      marginally. Though I cannot say why for certain, I assume this descrepency is due to the digits having more distinct profiles than the clothing items
      since both datasets have identically shaped training and testing sets and each model is working with 10  classes.
      
-   ![img_5.png](images/img_5.png)
-   ![img_6.png](images/img_6.png)
-   ![img_7.png](images/img_7.png)
+   ![img_5.png](../images/img_5.png)
+   ![img_6.png](../images/img_6.png)
+   ![img_7.png](../images/img_7.png)
