@@ -20,7 +20,7 @@
 ## Week 4
 * ___[Wednesday](wednesday4.md)___
 * ___[Thursday](thursday4.md)___
-* ___[Project 4]()___
+* ___[Project 4](https://eanelson01.github.io/DATA310/mod4/project4.html)___
   
 ## Week 5
 * ___[Monday]()___
