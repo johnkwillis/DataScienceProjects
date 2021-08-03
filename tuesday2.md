@@ -1,4 +1,4 @@
-#Tuesday 7/14
+# Tuesday 7/14
 
 ## Higgs Dataset
 1. ___Describe the dataset. What type of variable is the target? How many features are being used? How many observations are in the training dataset? How many are used in the validation set?___
@@ -20,7 +20,7 @@
         3. Regularization (i.e. L1 and L2)
         4. Add dropout
       ---
-##Convolutional Neural Networks
+## Convolutional Neural Networks
 1. ___Modify the existing filter and if needed the associated weight in order to apply your new filters to the image 3 times.___
    1. ___```filter = [ [0, 1, 0], [1, -4, 1], [0, 1, 0]] ```: Edges___
       * ![img_22.png](images/img_22.png)
