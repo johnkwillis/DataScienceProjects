@@ -1,4 +1,4 @@
-# ___DATA 310 Index___
+# ___Applied Machine Learning - Summer 2021___
 ## Week 1
 * ___[Tuesday](md_files/tuesday1.md)___
 * ___[Wednesday](md_files/wednesday1.md)___
