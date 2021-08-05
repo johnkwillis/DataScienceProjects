@@ -1,4 +1,4 @@
-# ___Applied Machine Learning___ 
+# ___John Willis - Applied Machine Learning___ 
 ## ___Module 1___
 #### ___[Tuesday](tuesday1.md)___
 #### ___[Wednesday](wednesday1.md)___
