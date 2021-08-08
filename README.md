@@ -22,8 +22,7 @@
 #### ___[Thursday](thursday4.md)___
 ### ___[Project 4](https://eanelson01.github.io/DATA310/mod4/project4.html)___
   
-## ___Final Project___
-#### ___[Abstract](abstract.md)___
+## ___[Final Project](FinalProject.md)___
 #### ___[Presentation Slides]()___
 
 
