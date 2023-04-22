@@ -1,7 +1,7 @@
-# ___John Willis 
+# __John Willis - Data Science Projects__
 
 ## Data Vizualization
-### 
+### __[Interacting with Data (Part 1)]()
 
 ## __Applied Machine Learning
 ### ___[Project 1](project1.md)___
