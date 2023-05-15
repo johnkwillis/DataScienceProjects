@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin-top: 50px;
+}
+
+h1, h2, h3 {
+    color: #b22234;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3c3b6e;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #3c3b6e;
+}
+
+p {
+    color: #000;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3c3b6e;
+    color: #fff;
+}
+
+td {
+    background-color: #fff;
+    color: #000;
+}
+
+a {
+    color: #0000ee;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #3c3b6e;
+    border-top: 2px solid #3c3b6e;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>National Security Directives: Trends Over Time</h1>
+    <p>John Willis</p>
+
+    <h2>Introduction and Background</h2>
+    <p>National Security Directives (NSDs) are influential yet often clandestine tools that empower the President to independently shape or amend national security policy, thereby testing the constitutionally mandated system of checks and balances. This confidential nature often keeps NSDs away from extensive academic scrutiny. This paper seeks to unveil the cryptic world of NSDs and investigate the reasoning behind Congress's approval of the National Security Act (NSA), a move that seems to undercut its own supervisory role. Further, the paper undertakes an in-depth exploration of the establishment and evolution of the National Security Council (NSC), delves into government assessments of NSD issuance, and offers a unique quantitative analysis of a comprehensive NSD dataset.</p>
+
+    <!-- Continue with the rest of your content -->
+
+    <h2>Table 1: NSD Nomenclature by Presidential Administration</h2>
+    <table class="table">
+        <tr>
+            <th>President</th>
+            <th>Title</th>
+            <th>Acronym</th>
+        </tr>
+        <tr>
+            <td>Truman</td>
+            <td>National Security Council Intelligence Directive</td>
+            <td>NSCID</td>
+        </tr>
+        <tr>
+            <td>Eisenhower</td>
+            <td>National Security Council Intelligence Directive</td>
+            <td>NSCID</td>
+        </tr>
+        <tr>
+            <td>Kennedy</td>
+            <td>National Security Action Memorandum</td>
+            <td>NSAM</td>
+        </tr>
+        <tr>
+            <td>Johnson</td>
+            <td>National Security Action Memorandum</td>
+            <td>NSAM</td>
+        </tr>
+        <tr>
+            <td>Nixon</td>
+            <td>National Security Study Memorandum</td>
+            <td>NSSM</td>
+        </tr>
+        <tr>
+            <td>Nixon</td>
+            <td>National Security Decision Memorandum</td>
+            <td>NSDM</td>
+        </tr>
+        <tr>
+            <td>Ford</td>
+            <td>National Security Study Memorandum</td>
+            <td>NSSM</td>
+        </tr>
+        <tr>
+            <td>Ford</td>
+            <td>National Security Decision Memorandum</td>
+            <td>NSDM</td>
+        </tr>
+        <tr>
+            <td>Carter</td>
+            <td>Presidential Review Memorandum</td>
+            <td>PRM</td>
+        </tr>
+        <tr>
+            <td>Carter</td>
+            <td>Presidential Directive</td>
+            <td>PD</td>
+        </tr>
+        <tr>
+            <td>Reagan</td>
+            <td>National Security Study Directive</td>
+            <td>NSSD</td>
+        </tr>
+        <tr>
+            <td>Reagan</td>
+            <td>National Security Decision Directive</td>
+            <td>NSDD</td>
+        </tr>
+        <tr>
+            <td>Bush Sr.</td>
+            <td>National Security Review</td>
+            <td>NSR</td>
+        </tr>
+        <tr>
+            <td>Bush Sr.</td>
+            <td>National Security Directive</td>
+            <td>NSD</td>
+        </tr>
+        <tr>
+            <td>Bush Sr.</td>
+            <td>National Space Policy Directive</td>
+            <td>NSPD</td>
+        </tr>
+        <tr>
+            <td>Clinton</td>
+            <td>Presidential Review Directive</td>
+            <td>PRD</td>
+        </tr>
+        <tr>
+            <td>Clinton</td>
+            <td>Presidential Decision Directive</td>
+            <td>PDD</td>
+        </tr>
+        <tr>
+            <td>Bush Jr.</td>
+            <td>National Security Presidential Directive</td>
+            <td>NSPD</td>
+        </tr>
+        <tr>
+            <td>Bush Jr.</td>
+            <td>Homeland Security Presidential Directive</td>
+            <td>HSPD</td>
+        </tr>
+        <tr>
+            <td>Obama</td>
+            <td>Presidential Study Directive</td>
+            <td>PSD</td>
+        </tr>
+        <tr>
+            <td>Obama</td>
+            <td>Presidential Policy Directive</td>
+            <td>PPD</td>
+        </tr>
+        <tr>
+            <td>Obama</td>
+            <td>Presidential Policy Guidance</td>
+            <td>PPG</td>
+        </tr>
+        <tr>
+            <td>Trump</td>
+            <td>National Security Presidential Memorandum</td>
+            <td>NSPM</td>
+        </tr>
+        <tr>
+            <td>Trump</td>
+            <td>Space Policy Directive</td>
+            <td>SPD</td>
+        </tr>
+        <tr>
+            <td>Biden</td>
+            <td>National Security Study Memorandum</td>
+            <td>NSSM</td>
+        </tr>
+        <tr>
+            <td>Biden</td>
+            <td>National Security Memorandum</td>
+            <td>NSM</td>
+        </tr>
+      </table>
+
+
+
+    <!-- Here is how you'd insert a visualization -->
+    <h3>[finalviz1.html]</h3>
+   
+    <!-- Continue from here -->
+
+    <h3>[finalviz2.html]</h3>
+
+    <h2>Analysis</h2>
+    <p>This paper, after a thorough literature review on National Security Directives (NSDs), utilizes a quantitative approach to analyze a comprehensive dataset of every NSD issued since President Kennedy. While early NSC organization posed challenges, a more consistent cataloging system from Kennedy onward allows for a detailed investigation of NSD issuance and classification across presidents and Congressional sessions. The findings suggest that presidents have used NSDs to unilaterally establish and change policy, especially under divided Congresses, echoing past studies' findings. Additionally, the analysis reveals an increase in declassification rates in recent years, suggesting a promising trend for future NSD studies.</p>
+    
+    <h3>[finalviz3.html]</h3>
+
+    <h2>Conclusion</h2>
+    <p>The National Security Act (NSA) marked a pivotal shift in the U.S.'s national security strategy, enhancing the president's influence through mechanisms such as National Security Directives (NSDs). Our analysis revealed that NSDs serve as significant policy tools, especially in the face of a divided Congress, affecting both domestic and international landscapes. While they potentially undermine Congressional oversight, the increasing rate of declassification offers promise for greater transparency in the future.</p>
+    <p>The covert nature of NSDs, coupled with their vast impact on national security and international relations, calls for continued academic scrutiny. Even though these instruments challenge Congress's constitutional authority and can disrupt the governmental balance of power, the rising declassification trend provides optimism. This transparency can ensure alignment with the nation's democratic principles and reinforce the checks and balances system fundamental to U.S. governance. Future research must further illuminate the role of NSDs, promoting their transparent and accountable use to protect our democratic values.</p>
+
+    <h2>References</h2>
+    <p>Falk, Stanley L. "The National Security Council Under Truman, Eisenhower, and Kennedy." Political Science Quarterly 79.3 (1964): 403-434.</p>
+    <!-- Include the rest of your references -->
+
+</div>
+</body>
+</html>
