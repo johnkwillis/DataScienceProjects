@@ -11,13 +11,17 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     max-width: 100%;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-    margin-top: 50px;
 }
 
 h1, h2, h3 {
@@ -263,7 +267,6 @@ footer {
     
     <p>The dataset I created, containing the name, title, date, and classification status of every NSD from Kennedy to Trump, reveals an intriguing pattern. Figure 1 shows that over two-thirds of all NSDs were issued under divided Congresses, with presidents issuing an average of 61.17 NSDs under divided Congresses compared to 53.85 under unified ones. This disparity supports the theory that presidents may utilize NSDs to circumvent congressional oversight. Moreover, there appears to be a normal-like distribution of NSD use over time, with more sporadic usage following Bush Sr.'s administration. Shifting to trends in NSD declassification, Figure 2 presents the percentage of NSDs remaining classified per president and Congressional session. Periods where the United States was engaged in an armed conflict, such as the 101st, 107th, and 111th Congresses, show a high proportion of classified NSDs, suggesting presidents' use of NSDs to bypass Congress during these times. Figure 3, however, illustrates a significant shift towards declassification since 2009, with most NSDs from Ford to Bush Sr. nearly entirely declassified and subsequent presidents following suit rapidly. This trend towards greater transparency, likely influenced by Obama's emphasis on declassification in E.O. 13526, implies a promising future for NSD studies.</p>
     
-    <h3>FIGURE 2 & 3</h3>
     <div class="iframe-container">
         <iframe src="finalviz2.html" width="100%" height="1000"></iframe>
     </div>
